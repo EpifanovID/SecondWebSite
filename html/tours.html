@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <meta charset="UTF-8">
+    <title>Туристическое агенство</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<!--       Карусель       -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../images/General/Baikal.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Байкал</h5>
+                <p>Безграничная воднная гладь</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../images/General/Alps.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Альпы</h5>
+                <p>Горы мечты</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../images/General/Forest.jpeg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Лес</h5>
+                <p>Огромные просторы России</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+    </button>
+</div>
+
+
+<nav class="nav nav-pills flex-column flex-sm-row navbar container px-4 text-center">
+    <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#Туристическое агенство"><img
+            src="../images/General/Emblem.jpg" width="50px"></a>
+    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="./tours.html">Туры</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="./excursions.html">Экскурсии</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="./about_us.html">О нас</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="./order.html">Заказать</a>
+</nav>
+
+
+<div class="card">
+    <div class="card-body text-center text-primary">
+        <h3 id="Туристическое агенство">Туристическое агенство</h3>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-body text-center text-primary">
+        <h5>Полезные ссылки по странице:</h5>
+        <nav class="nav flex-column ">
+            <a class="nav-link" href="#Байкал">Тур по Байкалу</a>
+            <a class="nav-link" href="#Альпы">Тур по Альпам</a>
+            <a class="nav-link" href="#Лес">Тур по Лесу</a>
+        </nav>
+    </div>
+</div>
+
+
+<div class="card mb-3 container px-4 text-center" style="max-width: 95%">
+    <div class="row g-0">
+        <div class="col-md-6">
+            <img src="../images/Tours/Baikal_2.jpg" class="img-fluid rounded-start">
+        </div>
+        <div class="col-md-6 container px-1">
+            <div class="card-body">
+                <h5 class="card-title" id="Байкал">Байкал</h5>
+                <div class="">Волшебный тур с первым Байкальским льдом - это несколько дней, которые подарят Вам
+                    полноценный зимний отдых, прогулки на свежем воздухе, интересные экскурсии и развлечения на берегах
+                    самого древнего, глубокого и чистого озера планеты! Прокатиться по чистейшему "молодому" льду
+                    Байкала на коньках, на Хивусе, насладиться закатом солнца у визитной карточки Байкала - скалы
+                    "Шаманки" и многое другое, что останется для Вас тайной, если Вы откажете себе в этом чуде - быть на
+                    рождество в настоящем месте силы..
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="card mb-3 container px-4 text-center" style="max-width: 95%">
+    <div class="row g-0">
+        <div class="col-md-6 container px-1">
+            <div class="card-body">
+                <h5 class="card-title" id="Альпы">Альпы</h5>
+                <div class="">Просматривая фото из Альп, многие люди не осознают, что это доступная реальность... но мы
+                    покажем вам настоящие Альпы и их предгорья: бесконечные хребты с причудливыми пиками и заснеженными
+                    вершинами, оборонительные форты, преграждающие путь в горные долины, монастыри, озера и
+                    туристические тропы с умопомрачительными видами.
+                    Мы побываем на высоте 3466м, откуда рукой подать до высочайшей в Европе горы – Монблан, и на вершине
+                    священной горы, где нас ждут умиротворенные пейзажи предгорий Альп и ледниковых озер.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="../images/Tours/Alps_2.jpg" class="img-fluid rounded-start">
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3 container px-4 text-center" style="max-width: 95%">
+    <div class="row g-0">
+        <div class="col-md-6">
+            <img src="../images/Tours/Forest_2.jpg" class="img-fluid rounded-start">
+        </div>
+        <div class="col-md-6 container px-1">
+            <div class="card-body">
+                <h5 class="card-title" id="Лес">Лес</h5>
+                <div class="">Наш тур начинается с путешествия через густые зеленые деревья и запах свежести, который
+                    наполняет воздух. Ваш гид, опытный эксперт в области природы, будет делиться с вами удивительными
+                    фактами и интересными историями о растениях и животных, которые обитают в этом лесу.
+                    Вы будете исследовать тропинки, ведущие к потрясающим водопадам и живописным озерам. Испытайте
+                    адреналин, преодолевая висячие мосты и подвесные лестницы, чтобы добраться до самых невероятных
+                    видовых площадок. Вам представится уникальная возможность понаблюдать за разнообразными видами птиц
+                    и животных, включая редкие и защищенные виды.
+                    С нашим профессиональным шеф-поваром вы сможете насладиться вкусным пикником с видом на живописные
+                    пейзажи. Вы также сможете попробовать настоящую кухню леса, включающую в себя свежие ягоды, грибы и
+                    травы.
+                    Вечером вы устроите ночной поход, чтобы открыть перед собой звездное небо и насладиться тишиной и
+                    спокойствием дикой природы. Уютные палатки и костры создадут атмосферу уюта и комфорта.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body text-center text-primary">
+        <nav class="nav flex-column ">
+            <a class="nav-link" href="#Туристическое агенство">К началу страницы</a>
+        </nav>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <meta charset="UTF-8">
+    <title>Туристическое агенство</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<!--       Карусель       -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../images/General/Baikal.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Байкал</h5>
+                <p>Безграничная воднная гладь</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../images/General/Alps.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Альпы</h5>
+                <p>Горы мечты</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../images/General/Forest.jpeg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Лес</h5>
+                <p>Огромные просторы России</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+    </button>
+</div>
+
+
+<nav class="nav nav-pills flex-column flex-sm-row navbar container px-4 text-center">
+    <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#Туристическое агенство"><img
+            src="../images/General/Emblem.jpg" width="50px"></a>
+    <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="./tours.html">Туры</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="./excursions.html">Экскурсии</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="./about_us.html">О нас</a>
+    <a class="flex-sm-fill text-sm-center nav-link active" href="./order.html">Заказать</a>
+</nav>
+
+<div class="card">
+    <div class="card-body text-center text-primary">
+        <h3 id="Туристическое агенство">Туристическое агенство</h3>
+    </div>
+</div>
+
+
+<div class="container">
+    <!--начало уникального содержания страницы-->
+    <div class="card-body">
+        <h5 class="card-title text-center">Список туров</h5>
+        <form action="https://www.bing.com/search?" id="UserEnter_1" name="UserEnter" target="_blank">
+            <input name="q" type="hidden" value="search" wfd-invisible="true">
+            <ul class="d-flex flex-row justify-content-around flex-wrap">
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_1.jpg">
+                    <h5 class="card-title">Тур 1</h5>
+                    <p class="card-text">Описание 1.</p>
+                    <p>Цена 1.</p>
+                    <input type="hidden" name="name" value="1" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_1" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_2.jpg">
+                    <h5 class="card-title">Тур 2</h5>
+                    <p class="card-text">Описание 2.</p>
+                    <p>Цена 2.</p>
+                    <input type="hidden" name="name" value="2" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_2" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_3.jpg">
+                    <h5 class="card-title">Тур 3</h5>
+                    <p class="card-text">Описание 3.</p>
+                    <p>Цена 3.</p>
+                    <input type="hidden" name="name" value="3" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_3" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_4.jpg">
+                    <h5 class="card-title">Тур 4</h5>
+                    <p class="card-text">Описание 4.</p>
+                    <p>Цена 4.</p>
+                    <input type="hidden" name="name" value="4" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_4" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_5.jpg">
+                    <h5 class="card-title">Тур 5</h5>
+                    <p class="card-text">Описание 5.</p>
+                    <p>Цена 5.</p>
+                    <input type="hidden" name="name" value="5" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_5" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_6.jpg">
+                    <h5 class="card-title">Тур 6</h5>
+                    <p class="card-text">Описание 6.</p>
+                    <p>Цена 6.</p>
+                    <input type="hidden" name="name" value="6" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_6" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_7.jpg">
+                    <h5 class="card-title">Тур 7</h5>
+                    <p class="card-text">Описание 7.</p>
+                    <p>Цена 7.</p>
+                    <input type="hidden" name="name" value="7" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_7" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_8.jpg">
+                    <h5 class="card-title">Тур 8</h5>
+                    <p class="card-text">Описание 8.</p>
+                    <p>Цена 8.</p>
+                    <input type="hidden" name="name" value="8" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_8" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_9.jpg">
+                    <h5 class="card-title">Тур 9</h5>
+                    <p class="card-text">Описание 9.</p>
+                    <p>Цена 9.</p>
+                    <input type="hidden" name="name" value="9" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_9" value="0"></p>
+                </li>
+
+                <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+                    <img style="width: 180px" class="align-self-center" src="../images/Order/Or_10.jpg">
+                    <h5 class="card-title">Тур 10</h5>
+                    <p class="card-text">Описание 10.</p>
+                    <p>Цена 10.</p>
+                    <input type="hidden" name="name" value="10" wfd-invisible="true">
+                    <p class="card-text">Заказать <input class="w-25" type="number" name="amount_10" value="0"></p>
+                </li>
+            </ul>
+            <input class="btn btn-primary" type="Submit" value="Заказать">
+        </form>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-body">
+        <form action="https://www.bing.com/search?" id="UserEnter_2" name="UserEnter" target="_blank">
+            <input name="q" type="hidden" value="search" wfd-invisible="true">
+            <input name="questionnaire" type="hidden" value="Опрос о предпочтениям">
+            <ul class="d-flex flex-row justify-content-around flex-wrap">
+                <il>
+                    <p>Если у вас остались воросы, то вы можиет оставить свой вопрос и менеджер вам ответит на
+                        электронную почту</p>
+                    <input type="text" name="qestion" size="100" value="Здесь ваш вопрос"/><br>
+                    <input type="text" name="mail" size="20" value="***********@mail.ru"/>
+                    <p>Введте количесво людей на которых расчитывается мероприятие</p>
+                    <input type="number" name="number_of_people" min="1" max="100" value="1"/>
+                    <p>Введите предпочтительное напрвление</p>
+                    <input type="Radio" name="preferences" value="Горы" checked> Горы
+                    <input type="Radio" name="preferences" value="Озера"> Озера
+                    <input type="Radio" name="preferences" value="Леса"> Леса<br>
+                    <input class="btn btn-primary" type="Submit" value="Заказать">
+                </il>
+            </ul>
+        </form>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-body text-center text-primary">
+        <nav class="nav flex-column ">
+            <a class="nav-link" href="#Туристическое агенство">К началу страницы</a>
+        </nav>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
